@@ -1,0 +1,105 @@
+/*CSS STYLING*/
+
+/*adding background color,font style to body*/
+body
+{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: red;  
+}  
+/*styling heading h2 tag with font size and weight,text shadow and color*/
+header h2 
+{
+  font-size: 60px;
+  font-weight: 600;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+}
+/*styling the div class container with padding and bg-color*/
+.container
+{  
+  padding: 50px;  
+  background-color: lightgreen;  
+}  
+/*An element's padding is the space between its content and its border.*/
+div 
+{  
+  padding: 10px 0;  
+}  
+/*styling hr tag with margin*/
+hr 
+{  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+} 
+/*The <ul> tag defines an unordered (bulleted) list.*/ 
+ul li 
+{
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+/*styling an image with class as img1*/
+.img1
+{    
+	object-fit: cover;
+	border: 4px solid #555;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	position: relaive;
+	float: right;
+  
+}
+/*styling diffrenet div tag with diffrenet class*/
+.first-ul
+{
+	  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: orchid;
+  	margin: 5px;
+}
+
+.sec-ul
+{
+	 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  	color: #000;
+	 background: dodgerblue;
+}
+.sec1-ul
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  color: #000;
+  background: indigo;
+}
+.first1-ul
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  color: #000;
+  background: salmon;
+}
+.sec5-ul
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  color: #000;
+  background: sienna;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

@@ -1,0 +1,80 @@
+/*CSS STYLING*/
+
+/*adding background image as the body*/
+body
+{  
+  background: gold url("../img/bgimage.jpg") no-repeat fixed center; 
+
+}  
+/*styling the div class container*/
+.container img 
+{
+  vertical-align: middle;
+}
+/*styling the div class container and content*/
+.container .content 
+{
+  position: absolute;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.sec1-ul
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  /*color: #000;*/
+  font-size: larger;
+}
+div 
+{  
+  padding: 10px 0;  
+}
+/*hr tag styling*/  
+hr 
+{  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+/*marquee tag styling*/
+.marq 
+{
+  min-width: 500px;
+}
+a 
+{
+  color: hotpink;
+}
+/* unvisited link */
+a:link 
+{
+  color: red;
+}
+.img1
+{    
+  border: 5px solid lightyellow;
+}
+p 
+{
+  color: chartreuse;
+  text-indent: 30px;
+  text-transform: uppercase;
+}
+/* visited link */
+a:visited 
+{
+  color: cyan;
+}
+
+/* mouse over link */
+a:hover 
+{
+  color: hotpink;
+}
+
+/* selected link */
+a:active 
+{
+  color: blue;
+}

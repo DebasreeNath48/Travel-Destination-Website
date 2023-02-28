@@ -1,0 +1,172 @@
+/*CSS STYLING*/
+
+/*adding background image as the body*/
+body
+{  
+  background: lightblue url("../img/bgimage.jpg") no-repeat fixed center; 
+} 
+/*styling the div class container*/ 
+.container img 
+{
+  vertical-align: middle;
+}
+/*styling the div class container and content*/
+.container .content 
+{
+  position: absolute;
+  /*bottom: 0;*/
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+/*styling text fields*/
+input[type=text], input[type=password], textarea 
+{  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus
+{  
+  background-color: pink;  
+  outline: none;  
+}  
+/*styling div tag*/
+div 
+{
+  padding: 10px 0;  
+}  
+/*hr tag styling*/  
+hr 
+{  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+/*marquee tag styling*/
+.marq 
+{
+  min-width: 500px;
+}
+/*styling table border and contents*/
+table, th, td 
+{
+  border: 1px solid;
+}
+table
+{
+border:ridge 5px;
+color:yellow;
+margin-left:auto;
+margin-right:auto;
+border-collapse: collapse;
+width: 50%;
+}
+
+th
+{
+  height: 70px;
+}
+tr
+{
+  height:40px;
+}
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button 
+{
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup 
+{
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container 
+{
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+	
+
+}
+
+
+/* Set a style for the submit/login button */
+.form-container .btn 
+{
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel 
+{
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover 
+{
+  opacity: 1;
+}
+a 
+{
+  color: hotpink;
+}
+p 
+{
+  color: chartreuse;
+  text-indent: 30px;
+  text-transform: uppercase;
+}
+/* unvisited link */
+a:link 
+{
+  color: red;
+}
+
+/* visited link */
+a:visited 
+{
+  color: cyan;
+}
+
+/* mouse over link */
+a:hover 
+{
+  color: hotpink;
+}
+
+/* selected link */
+a:active 
+{
+  color: blue;
+}
